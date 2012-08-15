@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+	<ModulePrefs title="Derquinse Gist.GitHub Gadget">
+		<Require feature="dynamic-height" />
+	</ModulePrefs>
+	<UserPref name="gistId" display_name="Gist #" required="true" />
+	<Content type="html">
+<![CDATA[ 
+<div id="content_div"> 
+
+<script src="http://gist.github.com/__UP_gistId__.js"></script>
+
+<script type="text/javascript">
+  gadgets.util.registerOnLoadHandler(gadgets.window.adjustHeight);
+</script>
+
+</div>
+  ]]>
+	</Content>
+</Module>
