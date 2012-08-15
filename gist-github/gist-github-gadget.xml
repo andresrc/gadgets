@@ -8,7 +8,7 @@
 <![CDATA[ 
 <div id="content_div"> 
 
-<script src="http://gist.github.com/__UP_gistId__.js"></script>
+<script src="https://gist.github.com/__UP_gistId__.js"></script>
 
 <script type="text/javascript">
   gadgets.util.registerOnLoadHandler(gadgets.window.adjustHeight);
